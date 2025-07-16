@@ -50,6 +50,16 @@ The RAG AI System is a comprehensive tool designed to facilitate the embedding a
    pip install -r requirements.txt
    ```
 
+3. **Download and Install Docker**:
+
+    [Download Docker](https://www.docker.com/products/docker-desktop/) and follow the installation instructions for your operating system.
+    Ensure Docker is running for Qdrant to function properly.
+    replace with the path like this 
+    ``` Open The terminal in Docker : 
+    docker run -d -p 7000:6333 -v "C:\Users\bruce\OneDrive\Desktop\New folder\PYTHON\Demo\Endpoint_Files\qdrant_data:/qdrant/storage" --name qdrant-rag qdrant/qdrant
+    ```
+
+
 3. **Run the application**:
    ```bash
    streamlit run app.py
