@@ -58,11 +58,14 @@ The RAG AI System is a comprehensive tool designed to facilitate the embedding a
     ``` Open The terminal in Docker : 
     docker run -d -p 7000:6333 -v "C:\Users\bruce\OneDrive\Desktop\New folder\PYTHON\Demo\Endpoint_Files\qdrant_data:/qdrant/storage" --name qdrant-rag qdrant/qdrant
     ```
+4. **Run the Rag Server**
+   ```
+   python Rag.py
+   ```
 
-
-3. **Run the application**:
+5. **Run the application**:
    ```bash
-   streamlit run app.py
+   streamlit run D_AI.py
    ```
 
 ## Usage
