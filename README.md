@@ -1,5 +1,4 @@
 ---
-
 # Project Title: RAG AI System
 
 ## Table of Contents
