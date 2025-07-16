@@ -42,7 +42,7 @@ The RAG AI System is a comprehensive tool designed to facilitate the embedding a
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/shadrach098/Rag_AI_System.git
    ```
    
 2. **Install dependencies**:
