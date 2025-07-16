@@ -1,0 +1,11 @@
+openai
+qdrant-client
+faiss-cpu
+flask
+requests
+streamlit
+pandas
+pytesseract
+pillow
+pypdf2
+python-docx
